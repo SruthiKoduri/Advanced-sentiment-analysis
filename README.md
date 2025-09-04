@@ -1,31 +1,42 @@
-# Advanced Sentiment Analysis on Twitter Posts using NLP and ML
+# 🚀 Advanced Sentiment Analysis on Twitter Posts using NLP & ML
 
-## 🚀 How to Run
+This project is a **machine learning web app** that classifies tweets into **Positive, Negative, or Neutral** sentiments.  
+It uses **Natural Language Processing (NLP)** for text preprocessing and a **Logistic Regression classifier** trained on Twitter posts.  
+The app is deployed online using **Streamlit Cloud**.
 
-1. Install dependencies:
+---
+
+## 🔗 Links
+
+- 📂 **GitHub Repository**: [View Code](https://github.com/SruthiKoduri/Advanced-sentiment-analysis)
+- 🌍 **Live Demo (Streamlit App)**: [Try it Here](https://advanced-sentiment-analysis-9tkg4rdptq7okvurxhnn4e.streamlit.app/)
+
+---
+
+## ⚙️ Tech Stack
+
+- **Python** (Pandas, NumPy, Scikit-learn)
+- **NLP** (Text preprocessing, TF-IDF Vectorization)
+- **Machine Learning** (Logistic Regression)
+- **Visualization** (Matplotlib, Seaborn, WordCloud)
+- **Deployment** (Streamlit Cloud)
+- **Version Control** (Git + GitHub)
+
+---
+
+## ✨ Features
+
+- ✅ Preprocesses and cleans Twitter posts automatically  
+- ✅ Classifies tweets into **Positive / Negative / Neutral**  
+- ✅ Generates **Word Clouds** for each sentiment separately  
+- ✅ Interactive **Streamlit Web App**  
+- ✅ Deployed online with public access  
+
+---
+
+## 🚀 How to Run Locally
+
+1. Clone the repository:
    ```bash
-   pip install -r requirements.txt
-   ```
-
-2. Train the model (this will create `sentiment_model.pkl` and `vectorizer.pkl`):
-   ```bash
-   python train_model.py
-   ```
-
-3. Run the Streamlit app:
-   ```bash
-   streamlit run app.py
-   ```
-
-## 📂 Files Included
-- `app.py` → Streamlit web app for single tweet & bulk analysis with wordclouds.
-- `train_model.py` → Trains a Naive Bayes model and saves it.
-- `sample_tweets.csv` → Example dataset for training/testing.
-- `requirements.txt` → Dependencies list.
-- `README.md` → Instructions.
-
-## ✅ Features
-- Single tweet prediction.
-- Bulk CSV upload with sentiment results.
-- Wordclouds for positive, negative, and neutral tweets.
-- Downloadable CSV results.
+   git clone https://github.com/SruthiKoduri/Advanced-sentiment-analysis.git
+   cd Advanced-sentiment-analysis
